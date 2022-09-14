@@ -39,22 +39,22 @@
                   <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item pl-md-3">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item pl-md-3">
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link" href="#contact">Contact Us</a>
                 </li>
                 <li class="nav-item dropdown pl-md-3">
                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                     Product
                     </a>
                     <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Invoice</a>
-                    <a class="dropdown-item" href="#">Books</a>
-                    <a class="dropdown-item" href="#">Inventory</a>
-                    <a class="dropdown-item" href="#">Subscription</a>
-                    <a class="dropdown-item" href="#">Expense</a>
-                    <a class="dropdown-item" href="#">Payroll</a>
+                      <a class="dropdown-item" href="#products">Invoice</a>
+                      <a class="dropdown-item" href="#products">Books</a>
+                      <a class="dropdown-item" href="#products">Inventory</a>
+                      <a class="dropdown-item" href="#products">Subscription</a>
+                      <a class="dropdown-item" href="#products">Expense</a>
+                      <a class="dropdown-item" href="#products">Payroll</a>
                     </div>
                 </li>
               </ul>
@@ -87,7 +87,7 @@
         </div>
         <!--Products-->
         <div class="p-md-5 m-5 p-5 border bg-light" style="border-radius:50px;">
-            <h1 class="text-center display-4 text-secondary">OUR PRODUCTS</h1>
+            <h1 class="text-center display-4 text-secondary" id="products">OUR PRODUCTS</h1>
             <div class="row pt-5">
                     <div class="col-lg-3 pb-4">
                         <div class="card shadow bg-light" data-toggle="modal" data-target="#myModal1">
@@ -150,7 +150,7 @@
             </div>
         </div>
         <!--About-->
-         <div class="container-fluid p-5 border" style="background-color:gainsboro">
+         <div class="container-fluid p-5 border" style="background-color:gainsboro" id="about">
             <h1 class="text-center display-4 text-secondary">Benefits of the Integrated Finance Suite for Businesses</h1>
             <div class="row bg-secondary ">
                 <div class="col-lg-6 p-5"><img src="about.png" class="img-fluid align-self-center"></div>
@@ -167,7 +167,7 @@
             </div>
          </div>
          <div>
-            <h1 class="text-center display-4 text-secondary pt-4">Get in touch with us</h1>
+            <h1 class="text-center display-4 text-secondary pt-4" id="contact">Get in touch with us</h1>
             <form class="form-group container border border-secondary p-5">
                 <label>Name:</label><input type="text" class="form-control" required>
                 <label>Email:</label><input type="email" class="form-control" required>
@@ -213,13 +213,13 @@
               <a href="#!" class="text-light">Home</a>
             </li>
             <li>
-              <a href="#!" class="text-light">About</a>
+              <a href="#about" class="text-light">About</a>
             </li>
             <li>
-              <a href="#!" class="text-light">Product</a>
+              <a href="#products" class="text-light">Product</a>
             </li>
             <li>
-              <a  class="text-light">Contact</a>
+              <a  class="text-light" href="#contact">Contact</a>
             </li>
           </ul>
   
